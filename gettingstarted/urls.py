@@ -15,7 +15,7 @@ from django.contrib import admin
 #    url(r'^admin/', include(admin.site.urls)),
 
 urlpatterns = [
-    url(r'^$', include('hello.urls')),
+    url(r'^', include('hello.urls')),
     url(r'^db', include('hello.urls')),
     url(r'^hello/', include('hello.urls')),
     url(r'^polls/', include('polls.urls')),
